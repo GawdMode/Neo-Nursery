@@ -22,7 +22,7 @@ Neo Nursery does **not** include a Pokémon Crystal ROM or ROM-extracted officia
 ## Getting started
 
 <p align="center">
-  <a href="[https://gawdmode.github.io/](https://raw.githubusercontent.com/GawdMode/Neo-Nursery/refs/heads/main/assets/neo%20nursery%20care%20manual.png)">
+  <a href="https://raw.githubusercontent.com/GawdMode/Neo-Nursery/refs/heads/main/assets/neo%20nursery%20care%20manual.png">
     <img src="assets/caremanualpreview.png" alt="Download the Care Manual" width="500">
   </a><br>
   Download the care manual
