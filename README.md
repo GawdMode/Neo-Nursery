@@ -1,6 +1,12 @@
+<p align="center">
+  <a href="https://gawdmode.github.io/">
+    <img src="assets/checkoutmyothermods.png" alt="Check out all of my other Gen1Recomp mods">
+  </a>
+</p>
+
 # Neo Nursery
 
-A Pokémon Crystal mod for **gen1recomp** that turns the Johto Day Care into a Tamagotchi-style Baby Pokémon nursery.
+A Pokémon Crystal mod for **gen1recomp** that turns the Johto Day Care into a virtual pet-style Baby Pokémon nursery.
 
 Meet **Zelda** at the Day Care, receive the **BABY MONITOR**, choose an Egg, and raise a Baby Pokémon through feeding, play, cleaning, sleep, illness, Friendship, and adoption. Neo Nursery supports Crystal's eight official Baby Pokémon plus eleven reconstructed cut babies that can be discovered through long-term Nursery progression.
 
@@ -25,7 +31,7 @@ The Nursery has **three persistent resident slots**. Eggs and babies continue to
 
 Each baby has three visible care meters:
 
-- **FOOD** — restored with compatible food and drink items from your real PACK.
+- **HUNGER** — restored with compatible food and drink items from your real PACK.
 - **FUN** — restored through PLAY.
 - **CLEAN** — affected by waste and restored by flushing the Nursery.
 
@@ -113,11 +119,15 @@ Zelda is more than the onboarding NPC. The Nursery's **CALL** feature can bring 
 
 She can explain newly encountered care mechanics, give medicine clues, comment on current COND, talk about age/weight/preferences/Friendship, and react to important milestones. Automatic lessons are one-time tutorials, while manual calls can still repeat useful urgent-care advice.
 
+## Saving and persistence
+
+Neo Nursery stores its persistent state in the normal save system.
+
+Real elapsed time is reconstructed from saved timestamps, but care actions made **after your most recent game SAVE** can still roll back if you quit without saving. Save normally after important Nursery actions just as you would after other Pokémon Crystal progress.
+
 ## PokeSurvive compatibility
 
-Neo Nursery supports PokeSurvive without allowing Nursery-exclusive species to leak into ordinary random species pools.
-
-For the full cut-baby randomizer path, use **PokeSurvive 2.1.4 or newer**.
+Neo Nursery supports [PokeSurvive](https://github.com/GawdMode/PokeSurvive).
 
 When enabled:
 
@@ -126,39 +136,11 @@ When enabled:
 - **RAND STATS** gives cut babies deterministic randomized stat spreads while keeping them sensible pre-evolutions of their target family.
 - **RAND MOVES** gives them seeded, type-aware learnsets and TM/HM compatibility.
 - The randomized identity persists through save/reload, CRYSTAL/NEO style changes, adoption, re-dropoff, Summary, battle, and evolution.
-- Shiny coloration remains shiny instead of being overwritten by the normal randomized-type palette.
 
 PokeSurvive camping can advance compatible in-game Egg timing without falsely applying the same number of hours as real-world care neglect.
 
-## Mutant Monster Lab compatibility
+## Attribution
 
-Individual palette mutations from **Mutant Monster Lab** are preserved when a compatible baby is dropped off, withdrawn, adopted, or switched between CRYSTAL and NEO presentation.
-
-An explicit MML recolor takes visual precedence while active. The Pokémon's underlying shiny/randomized data remains intact.
-
-## Saving and persistence
-
-Neo Nursery stores its persistent state in the normal save system.
-
-Real elapsed time is reconstructed from saved timestamps, but care actions made **after your most recent game SAVE** can still roll back if you quit without saving. Save normally after important Nursery actions just as you would after other Pokémon Crystal progress.
-
-## Compatibility notes
-
-- Built for Pokémon Crystal through **gen1recomp 0.3.8+**.
-- Optional integrations: **PokeSurvive** and **Mutant Monster Lab**.
-- Nursery-exclusive reconstructed babies are explicitly guarded from unrelated random species pools.
-- Neo Nursery intentionally uses Crystal's existing inventory, medicine, happiness, PC storage, evolution, Summary, battle, and Egg systems wherever practical.
-
-## Repository
-
-Updates and source releases:
-
-**https://github.com/GawdMode/Neo-Nursery**
-
-The manifest includes the repository identifier used by compatible launchers to discover future GitHub releases.
-
-## 1.0
-
-Version 1.0 is the first public release of Neo Nursery after an extended development and QA cycle covering real-time care, multi-resident persistence, offscreen hatching, adoption, happiness evolution, Sprite Style, shiny behavior, PokeSurvive randomization, Mutant Monster Lab palette persistence, and Nursery minigames.
+Custom Pokémon sprite artwork: **Rool, Smalls, Pik, Bencc, Nuuk, Scarlax, Sam the Salmon, and SoupPotato (SourApple / BlazingMagmar)** from [Pokémon Gold & Silver ’97: Reforged](https://www.pokecommunity.com/threads/pok%C3%A9mon-gold-and-silver-97-reforged-complete.437360/). Item icon artwork: **NESS** via [The Spriters Resource](https://www.spriters-resource.com/).
 
 Bug reports and unusual mod combinations are welcome. If reporting a compatibility issue, please include your gen1recomp version, enabled mods, relevant randomizer settings, and reproduction steps.
