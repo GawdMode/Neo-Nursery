@@ -21,6 +21,13 @@ Neo Nursery does **not** include a Pokémon Crystal ROM or ROM-extracted officia
 
 ## Getting started
 
+<p align="center">
+  <a href="[https://gawdmode.github.io/](https://raw.githubusercontent.com/GawdMode/Neo-Nursery/refs/heads/main/assets/neo%20nursery%20care%20manual.png)">
+    <img src="assets/caremanualpreview.png" alt="Download the Care Manual" width="500">
+  </a><br>
+  Download the care manual
+</p>
+
 Zelda introduces the Nursery and gives you the **BABY MONITOR**, a real Key Item that can also be registered to **SELECT** for quick access.
 
 Your first visit is guided: Zelda walks you through **STATUS -> NEW EGG** and explains the basic care loop. Nursery-generated Eggs hatch after about **10 minutes** on the compatible Crystal/PokeSurvive clock, and a new Nursery Egg can normally be claimed once every **24 real hours**.
