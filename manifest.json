@@ -1,0 +1,26 @@
+{
+  "id": "babycare_prototype",
+  "name": "Neo Nursery",
+  "version": "1.0.0",
+  "author": "Jasocorp + ChatGPT",
+  "description": "A Tamagotchi-style Pokemon Crystal nursery: hatch and care for Baby Pokemon, build Friendship, play minigames, manage needs and conditions, unlock reconstructed cut babies, and adopt them into the main game.",
+  "games": [
+    "crystal"
+  ],
+  "entry": "main.lua",
+  "api": 2,
+  "profile": "content",
+  "category": "Gameplay",
+  "game_version": ">=0.3.8 <1.0.0",
+  "priority": 900,
+  "dependencies": [],
+  "optional_dependencies": [
+    "pokemon_survival",
+    "cinnabar_experimental_lab"
+  ],
+  "conflicts": [],
+  "permissions": [
+    "engine_internals"
+  ],
+  "github": "GawdMode/Neo-Nursery"
+}
